@@ -30,9 +30,9 @@ import sys.thread.Thread;
 #end
 
 using StringTools;
-
+#if Newgrounds
 class TitleState extends MusicBeatState
-{
+{ #end
 	static var initialized:Bool = false;
 
 	var blackScreen:FlxSprite;
